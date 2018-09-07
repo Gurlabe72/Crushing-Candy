@@ -120,4 +120,4 @@ module.exports = {
   loopingData1,
   loopingData2,
   challenge1
-}
+}}
