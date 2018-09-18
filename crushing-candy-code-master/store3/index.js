@@ -20,8 +20,17 @@ accessesingData2(store3);
 
 // Return total number of dates included in the dataset.
 function accessesingData3() {
-
+  //create our output variable equal the first item in the object in store three, the date  
+let result = 0;
+//for loop that accesses the data in store3
+for ( var item in store3 ) {
+  //we are going to count how many dates are in the array and keep adding the count
+result += 1;
 }
+//return the amount of dates in the store3
+return result;
+}
+accessesingData3(store3);
 
 //()()()()() LOOPING OVER DATA ()()()()()\\
 
